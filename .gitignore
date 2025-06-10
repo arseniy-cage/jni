@@ -1,0 +1,27 @@
+# Built files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Gradle files
+.gradle/
+build/
+app/build/
+**/build/
+
+# NDK и JNI временные файлы
+obj/
+libs/  # Если сам собираешь .so локально, а не через CI
+*.o
+*.so
+*.d
+
+# Локальные настройки
+.idea/
+*.iml
+local.properties
+
+# Системные файлы
+.DS_Store
+*.swp
